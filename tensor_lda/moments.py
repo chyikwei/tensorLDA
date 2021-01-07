@@ -11,7 +11,7 @@ from numpy import linalg as LA
 import scipy.sparse as sp
 
 from sklearn.exceptions import ConvergenceWarning
-from sklearn.externals.six.moves import xrange
+from six.moves import xrange
 
 from .utils.tensor_utils import (rank_1_tensor_3d,
                                  tensor_3d_from_vector_matrix,

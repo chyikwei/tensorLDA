@@ -4,8 +4,8 @@
 import numpy as np
 import scipy.sparse as sp
 
-from scipy.misc import logsumexp
-from sklearn.externals.six.moves import xrange
+from scipy.special import logsumexp
+from six.moves import xrange
 
 from ._inference import (mean_change, _dirichlet_expectation_1d,
                          _dirichlet_expectation_2d)

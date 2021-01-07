@@ -3,7 +3,7 @@
 
 import numpy as np
 
-from sklearn.externals.six.moves import xrange
+from six.moves import xrange
 
 
 def _check_1d_vector(vector):

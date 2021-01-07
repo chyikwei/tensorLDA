@@ -1,6 +1,6 @@
 import numpy as np
 
-from sklearn.externals.six.moves import xrange
+from six.moves import xrange
 from sklearn.utils.testing import assert_equal
 from sklearn.utils.testing import assert_true
 from sklearn.utils.testing import assert_array_equal

@@ -6,7 +6,7 @@ from scipy.sparse import coo_matrix
 from scipy.stats import poisson
 
 from sklearn.utils import check_random_state
-from sklearn.externals.six.moves import xrange
+from six.moves import xrange
 
 
 class LdaSampleGenerator(object):

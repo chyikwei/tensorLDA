@@ -4,7 +4,7 @@
 import numpy as np
 from numpy import linalg as LA
 
-from sklearn.externals.six.moves import xrange
+from six.moves import xrange
 from sklearn.utils import check_random_state
 
 from .utils.tensor_utils import (khatri_rao_prod,

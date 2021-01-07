@@ -3,7 +3,7 @@ import numpy as np
 from itertools import permutations
 from numpy.linalg import pinv
 
-from sklearn.externals.six.moves import xrange
+from six.moves import xrange
 from sklearn.utils.testing import assert_equal
 from sklearn.utils.testing import assert_array_equal
 from sklearn.utils.testing import assert_array_almost_equal
