@@ -1,10 +1,10 @@
 import numpy as np
 
-from sklearn.utils.testing import assert_equal
-from sklearn.utils.testing import assert_greater_equal
-from sklearn.utils.testing import assert_array_almost_equal
-from sklearn.utils.testing import assert_almost_equal
-from sklearn.utils.testing import assert_raises_regexp
+from numpy.testing import assert_equal
+from nose.tools import assert_greater_equal
+from sklearn.utils._testing import assert_array_almost_equal
+from sklearn.utils._testing import assert_almost_equal
+from sklearn.utils._testing import assert_raises_regexp
 
 from six.moves import xrange
 

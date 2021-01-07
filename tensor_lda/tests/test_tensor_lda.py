@@ -2,15 +2,16 @@ import numpy as np
 import scipy.sparse as sp
 
 from sklearn.utils.estimator_checks import check_estimator
-from sklearn.utils.testing import assert_almost_equal
-from sklearn.utils.testing import assert_array_almost_equal
+from sklearn.utils._testing import assert_almost_equal
+from sklearn.utils._testing import assert_array_almost_equal
 
 from tensor_lda.tensor_lda import TensorLDA
 
 
 def test_estimator():
     """Test estimator"""
-    return check_estimator(TensorLDA)
+    lda = TensorLDA(n_components=10, alpha0=1.)
+    return check_estimator(lda)
 
 
 def test_tensor_lda_simple():

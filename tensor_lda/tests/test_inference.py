@@ -1,7 +1,7 @@
 import numpy as np
 
-from sklearn.utils.testing import assert_greater
-from sklearn.utils.testing import assert_array_almost_equal
+from nose.tools import assert_greater
+from sklearn.utils._testing import assert_array_almost_equal
 
 from tensor_lda.inference import (lda_inference_gd,
                                   lda_inference_vi,

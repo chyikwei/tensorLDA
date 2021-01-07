@@ -13,11 +13,6 @@ env:
     - TEST_DIR=/tmp/test_dir/
     - MODULE=tensor_lda
 
-jobs:
-  include:
-    - name: "Python 3.9"
-    - python: 3.9
-
 install: source ci_scripts/travis/install.sh
 script: bash ci_scripts/travis/test.sh
 after_success: source ci_scripts/travis/success.sh

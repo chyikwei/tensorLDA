@@ -1,5 +1,5 @@
 import numpy as np
-from sklearn.utils.testing import assert_array_almost_equal
+from sklearn.utils._testing import assert_array_almost_equal
 
 from tensor_lda.utils.tensor_utils import tensor_3d_permute
 from tensor_lda.utils.fast_tensor_ops import (tensor_3d_permute_231,

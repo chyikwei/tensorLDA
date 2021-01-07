@@ -4,11 +4,11 @@ from itertools import permutations
 from numpy.linalg import pinv
 
 from six.moves import xrange
-from sklearn.utils.testing import assert_equal
-from sklearn.utils.testing import assert_array_equal
-from sklearn.utils.testing import assert_array_almost_equal
-from sklearn.utils.testing import assert_almost_equal
-from sklearn.utils.testing import assert_raises_regexp
+from numpy.testing import assert_equal
+from sklearn.utils._testing import assert_array_equal
+from sklearn.utils._testing import assert_array_almost_equal
+from sklearn.utils._testing import assert_almost_equal
+from sklearn.utils._testing import assert_raises_regexp
 
 from tensor_lda.utils.tensor_utils import (_check_1d_vector,
                                            rank_1_tensor_3d,
